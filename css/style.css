@@ -9,3 +9,8 @@ main {
 .header-text {
     margin: auto;
 }
+
+.content ul li {
+    text-decoration: none;
+    list-style: none;
+}

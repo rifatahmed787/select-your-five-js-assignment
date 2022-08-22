@@ -33,8 +33,8 @@
                     <img src="./images/messi2.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">Leonel Messi</h5>
-                        <h5 class="card-title text-light fs-6">36 Goals . 120 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">36 Goals . 120 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
@@ -43,8 +43,8 @@
                     <img src="./images/cristiano.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">CR7</h5>
-                        <h5 class="card-title text-light fs-6">30 Goals . 20 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">30 Goals . 20 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
@@ -53,14 +53,20 @@
                     <img src="./images/neymar.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">Neymar JR</h5>
-                        <h5 class="card-title text-light fs-6">36 Goals . 110 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">36 Goals . 110 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card text-center bg-dark">
-                    <h2 class="text-light fs-5 mt-3 mb-5">Selected-V</h2>
+                    <h2 class="text-light fs-5 mt-3 mb-5">Selected-<span id="total-added-players">0</span></h2>
+                    <tbody id="player-name" class="text-light">
+                        <tr>
+                            <th>1</th>
+                            <td>Mark</td>
+                        </tr>
+                    </tbody>
                 </div>
             </div>
         </div>
@@ -71,8 +77,8 @@
                     <img src="./images/mbappe.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">Kylian Mbappé</h5>
-                        <h5 class="card-title text-light fs-6">36 Goals . 20 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">36 Goals . 20 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
@@ -81,8 +87,8 @@
                     <img src="./images/images.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">Sergio Ramos</h5>
-                        <h5 class="card-title text-light fs-6">36 Goals . 120 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">36 Goals . 120 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
@@ -91,8 +97,8 @@
                     <img src="./images/1413894847.0.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-dark">
                         <h5 class="card-title text-light fs-4">Lewandowski</h5>
-                        <h5 class="card-title text-light fs-6">36 Goals . 20 Assist</h5>
-                        <button onclick="addToPlayer(this)" class="btn btn-primary px-5">Select</button>
+                        <p class="card-title text-light fs-6">36 Goals . 20 Assist</p>
+                        <button onclick="addPlayers(this)" class="btn btn-primary px-5">Select</button>
                     </div>
                 </div>
             </div>
