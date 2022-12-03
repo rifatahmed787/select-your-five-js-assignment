@@ -5,6 +5,10 @@ function display(players) {
     document.getElementById('cal-btn').addEventListener('click', function () {
         const playerPrice = document.getElementById('player-price');
         const playerTotalCost = playerPrice.value;
+        if (isNaN(playerTotalCost)) {
+            alert('provide a number');
+            return alert;
+        }
         const subtotal = players.length * playerTotalCost;
         const playerExpence = document.getElementById('player-expence');
         const playerTotalExpence = playerExpence.innerText;
